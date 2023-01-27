@@ -1,0 +1,88 @@
+/*
+Buenas Johny! Estuvo bueno el reto, bastante desafiante. Me costó, pero creo que se logró un pequeño Frankestein, porque me parece
+que no son las mejores prácticas, pero bueno lo fui haciendo de a poco, en distintos días y emparchando unas cosas sobre otras.
+No me sale:
+-como sacar el margen que tienen los botones a la izquierda, para que queden bien centrados.
+-No se aplica 100% bien a todas las pantallas.
+-y me gustaría que el footer quede más compacto en el fondo.
+*/
+body{
+    padding-top: 20px;
+    background: #d32f2f;
+    
+}
+.contenedor {
+    text-align: center;
+}
+img {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin: 0 auto;
+  }
+nav{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+#avatar{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+}
+header {
+    padding-bottom: 20px;
+  }
+body h1 {
+    color: #212121;
+    margin: 10px 0 0;
+  }
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+width: 100%;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 35px;
+}
+#insta{
+text-decoration: none;
+}
+
+.boton{
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+background: white;
+color: black;
+padding: 10px 15px 10px 15px;
+margin-bottom: 10px;
+text-decoration: none;
+border: 1px solid #555;
+box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.35);
+}
+
+.boton:hover{
+background: black;
+color: white;
+}
+ul {
+    text-align: center;
+        padding: 10;
+    list-style: none;
+  
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  li{
+    padding: 20px;
+  }
+  footer{
+     bottom: 0px;
+    width: 100%;
+    text-align: center;
+  }
